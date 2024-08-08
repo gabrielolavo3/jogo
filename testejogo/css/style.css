@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    display: none;
+}
+
+.container-maior {
+    display: flex;
+    width: 75%;
+    height: 75%;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 2px solid rgba(0, 0, 0, 0.479);
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 200px;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 0px 0px 8px 0px;
+}
+
+.icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+    border-radius: 8px;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+}
+
+.icone img {
+    width: 30px;
+}
+
+#t1 {
+    transform: rotate(90deg);
+}
+#t2 {
+    transform: rotate(180deg);
+}
+#t4 {
+    transform: rotate(-90deg);
+}
+
+#t5 {
+    transform: rotate(270deg);
+}
+
+.caixa img {
+    border-radius: 8px;
+}
+
+.container-medio {
+    display: flex;
+    flex: 1;
+    margin: 10px 10px 10px 20px;
+}
+
+.imagem-central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECE7E1;
+    border-radius: 8px;
+    margin: 15px;
+    flex: 1;
+}
+
+.imagem-central img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+}
+
+.tela {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #26FF02;
+    width: 190px;
+    height: 172px;
+    border-radius: 8px;
+    padding: 50px;
+}
+
+.tela img {
+    width: 35px;
+}
+
+.caixa-selecao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex: 1;
+}
+
+.caixa-selecao h1 {
+    font-weight: bold;
+    font: normal bold 1.4em 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+
+.box-imagens {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.caixa {
+    width: 150px;
+    height: 150px;
+    background-color: #d9d9d9;
+    border-radius: 8px;
+}
+
+.caixa:hover {
+    cursor: pointer;
+}
+
+.caixa img {
+    width: 150px;
+    height: 150px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+    height: 60px;
+    font: normal bold 0.7em 'Poppins', sans-serif;
+    background-color: #4caf50;
+    border-radius: 8px;
+    gap: 8px;
+}
+
+.btn img {
+    width: 30px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.box-selecionado {
+    outline: 5px solid green;
+}
